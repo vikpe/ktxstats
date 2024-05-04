@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Default, Clone, Serialize, Deserialize)]
 #[serde(default)]
-pub struct Ktxstats {
+pub struct KtxstatsV3 {
     pub version: i32,
     pub date: DateTime<Utc>,
     pub map: String,
@@ -20,7 +20,7 @@ pub struct Ktxstats {
     pub players: Vec<Player>,
 }
 
-impl TryFrom<&str> for Ktxstats {
+impl TryFrom<&str> for KtxstatsV3 {
     type Error = serde_json::Error;
 
     fn try_from(value: &str) -> Result<Self, Self::Error> {

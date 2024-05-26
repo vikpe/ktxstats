@@ -4,7 +4,7 @@ description = "Handle QuakeWorld KTX stats JSON files."
 keywords = ["json", "ktx", "quake", "quakeworld"]
 repository = "https://github.com/vikpe/ktxstats"
 authors = ["Viktor Persson <viktor.persson@arcsin.se>"]
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 license = "MIT"
 include = [
@@ -19,3 +19,6 @@ include = [
 chrono = { version = "0.4.31", features = ["serde"] }
 serde = { version = "1.0.200", features = ["derive"] }
 serde_json = "1.0.116"
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"

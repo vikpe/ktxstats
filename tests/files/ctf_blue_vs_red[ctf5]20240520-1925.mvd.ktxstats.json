@@ -1,0 +1,2216 @@
+{
+  "version": 3,
+  "date": "2024-05-20 19:35:42 +0000",
+  "map": "ctf5",
+  "hostname": "qwctf.se:28501",
+  "ip": "127.0.1.1",
+  "port": 28501,
+  "mode": "ctf",
+  "tl": 10,
+  "dm": 3,
+  "tp": 4,
+  "duration": 600,
+  "demo": "ctf_blue_vs_red[ctf5]20240520-1925.mvd",
+  "teams": [
+    "blue",
+    "red"
+  ],
+  "players": [
+    {
+      "top-color": 13,
+      "bottom-color": 13,
+      "ping": 16,
+      "login": "",
+      "name": "\u0010CCT\u0011\u009C\u00E3\u00E1\u00F6\u00E5\u00F2\u00EF\u00EE",
+      "team": "blue",
+      "stats": {
+        "frags": 29,
+        "deaths": 15,
+        "tk": 0,
+        "spawn-frags": 2,
+        "kills": 23,
+        "suicides": 1
+      },
+      "dmg": {
+        "taken": 3917,
+        "given": 3926,
+        "team": 0,
+        "self": 703,
+        "team-weapons": 0,
+        "enemy-weapons": 2637,
+        "taken-to-die": 261
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 9,
+        "quad": 2
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 1106.075439,
+        "avg": 269.362366
+      },
+      "weapons": {
+        "axe": {
+          "acc": {
+            "attacks": 1,
+            "hits": 0
+          },
+          "deaths": 0
+        },
+        "sg": {
+          "acc": {
+            "attacks": 54,
+            "hits": 4
+          },
+          "deaths": 2,
+          "pickups": {
+            "total-taken": 1
+          },
+          "damage": {
+            "enemy": 16,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 7,
+            "total-taken": 7,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          }
+        },
+        "ng": {
+          "acc": {
+            "attacks": 17,
+            "hits": 0
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 1,
+            "taken": 7,
+            "total-taken": 7,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 15,
+            "hits": 1
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 7,
+            "total-taken": 7,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          },
+          "damage": {
+            "enemy": 18,
+            "team": 0
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 83,
+            "hits": 6,
+            "real": 8,
+            "virtual": 15
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 9,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 2,
+            "taken": 12,
+            "total-taken": 15,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 487,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 95,
+            "hits": 9,
+            "real": 41,
+            "virtual": 46
+          },
+          "kills": {
+            "total": 19,
+            "team": 0,
+            "enemy": 16,
+            "self": 1
+          },
+          "deaths": 8,
+          "pickups": {
+            "dropped": 7,
+            "taken": 11,
+            "total-taken": 21,
+            "spawn-taken": 9,
+            "spawn-total-taken": 9
+          },
+          "damage": {
+            "enemy": 3199,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 44,
+            "hits": 4
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 5,
+            "self": 0
+          },
+          "deaths": 2,
+          "pickups": {
+            "dropped": 2,
+            "taken": 3,
+            "total-taken": 4,
+            "spawn-taken": 2,
+            "spawn-total-taken": 2
+          },
+          "damage": {
+            "enemy": 195,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 8
+        },
+        "health_100": {
+          "took": 7
+        },
+        "ga": {
+          "took": 6,
+          "time": 122
+        },
+        "ya": {
+          "took": 6,
+          "time": 188
+        },
+        "ra": {
+          "took": 3,
+          "time": 19
+        },
+        "q": {
+          "took": 2,
+          "time": 34
+        }
+      },
+      "ctf": {
+        "points": 8,
+        "carrier-defends": 4,
+        "carrier-frags": 1,
+        "pickups": 2,
+        "runes": [
+          0,
+          110,
+          22,
+          192
+        ]
+      }
+    },
+    {
+      "top-color": 13,
+      "bottom-color": 13,
+      "ping": 12,
+      "login": "",
+      "name": "\u0010CCT\u0011\u009C\u00E2\u00E9\u00EC\u00EC",
+      "team": "blue",
+      "stats": {
+        "frags": 23,
+        "deaths": 20,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 17,
+        "suicides": 0
+      },
+      "dmg": {
+        "taken": 3101,
+        "given": 4309,
+        "team": 0,
+        "self": 558,
+        "team-weapons": 0,
+        "enemy-weapons": 3052,
+        "taken-to-die": 155
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 4,
+        "quad": 0
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 1182.201538,
+        "avg": 413.591370
+      },
+      "weapons": {
+        "axe": {
+          "acc": {
+            "attacks": 8,
+            "hits": 4
+          },
+          "deaths": 0,
+          "damage": {
+            "enemy": 80,
+            "team": 0
+          }
+        },
+        "sg": {
+          "acc": {
+            "attacks": 210,
+            "hits": 51
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 0,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 3,
+            "total-taken": 2
+          },
+          "damage": {
+            "enemy": 173,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 4,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 5,
+            "total-taken": 5,
+            "spawn-taken": 5,
+            "spawn-total-taken": 5
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 5,
+            "total-taken": 5,
+            "spawn-taken": 5,
+            "spawn-total-taken": 5
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 3,
+            "hits": 1
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 6,
+            "total-taken": 6,
+            "spawn-taken": 6,
+            "spawn-total-taken": 6
+          },
+          "damage": {
+            "enemy": 18,
+            "team": 0
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 10,
+            "hits": 1,
+            "real": 2,
+            "virtual": 3
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 10,
+            "self": 0
+          },
+          "deaths": 2,
+          "pickups": {
+            "taken": 9,
+            "total-taken": 10,
+            "spawn-taken": 9,
+            "spawn-total-taken": 9
+          },
+          "damage": {
+            "enemy": 151,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 98,
+            "hits": 15,
+            "real": 35,
+            "virtual": 44
+          },
+          "kills": {
+            "total": 12,
+            "team": 0,
+            "enemy": 11,
+            "self": 0
+          },
+          "deaths": 10,
+          "pickups": {
+            "dropped": 9,
+            "taken": 17,
+            "total-taken": 24,
+            "spawn-taken": 13,
+            "spawn-total-taken": 13
+          },
+          "damage": {
+            "enemy": 2682,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 144,
+            "hits": 38
+          },
+          "kills": {
+            "total": 3,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 4,
+          "pickups": {
+            "dropped": 3,
+            "taken": 6,
+            "total-taken": 6,
+            "spawn-taken": 6,
+            "spawn-total-taken": 6
+          },
+          "damage": {
+            "enemy": 1066,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 7
+        },
+        "health_100": {
+          "took": 3
+        },
+        "ga": {
+          "took": 3,
+          "time": 96
+        },
+        "ya": {
+          "took": 6,
+          "time": 128
+        }
+      },
+      "ctf": {
+        "points": 9,
+        "defends": 1,
+        "carrier-defends": 1,
+        "carrier-frags": 2,
+        "returns": 2,
+        "runes": [
+          0,
+          70,
+          87,
+          1
+        ]
+      }
+    },
+    {
+      "top-color": 13,
+      "bottom-color": 13,
+      "ping": 12,
+      "login": "",
+      "name": "\u0010CCT\u0011\u009C\u00D3\u00E8\u00E9\u00EE\u00E9\u00EE\u00E7",
+      "team": "blue",
+      "stats": {
+        "frags": 19,
+        "deaths": 29,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 21,
+        "suicides": 4
+      },
+      "dmg": {
+        "taken": 4495,
+        "given": 4593,
+        "team": 0,
+        "self": 1101,
+        "team-weapons": 0,
+        "enemy-weapons": 3876,
+        "taken-to-die": 155
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 5,
+        "quad": 2
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 1089.629639,
+        "avg": 414.341217
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 60,
+            "hits": 30
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 2,
+            "total-taken": 4
+          },
+          "damage": {
+            "enemy": 72,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "acc": {
+            "attacks": 28,
+            "hits": 1
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 5,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 1,
+            "taken": 6,
+            "total-taken": 6,
+            "spawn-taken": 6,
+            "spawn-total-taken": 6
+          },
+          "damage": {
+            "enemy": 2,
+            "team": 0
+          }
+        },
+        "ng": {
+          "acc": {
+            "attacks": 11,
+            "hits": 9
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 8,
+            "total-taken": 9,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 150,
+            "team": 0
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 8,
+            "hits": 3
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 7,
+            "total-taken": 8,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          },
+          "damage": {
+            "enemy": 52,
+            "team": 0
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 3,
+            "hits": 1,
+            "real": 1,
+            "virtual": 1
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 11,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 7,
+            "total-taken": 8,
+            "spawn-taken": 6,
+            "spawn-total-taken": 6
+          },
+          "damage": {
+            "enemy": 47,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 134,
+            "hits": 14,
+            "real": 56,
+            "virtual": 61
+          },
+          "kills": {
+            "total": 18,
+            "team": 0,
+            "enemy": 17,
+            "self": 4
+          },
+          "deaths": 16,
+          "pickups": {
+            "dropped": 15,
+            "taken": 24,
+            "total-taken": 32,
+            "spawn-taken": 22,
+            "spawn-total-taken": 22
+          },
+          "damage": {
+            "enemy": 4057,
+            "team": 0
+          }
+        },
+        "lg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 7,
+            "self": 0
+          },
+          "deaths": 4,
+          "pickups": {
+            "taken": 1,
+            "total-taken": 1
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 6
+        },
+        "health_100": {
+          "took": 5
+        },
+        "ga": {
+          "took": 2,
+          "time": 18
+        },
+        "ya": {
+          "took": 14,
+          "time": 212
+        },
+        "ra": {
+          "took": 2,
+          "time": 74
+        },
+        "q": {
+          "took": 2,
+          "time": 30
+        }
+      },
+      "ctf": {
+        "points": 4,
+        "carrier-frags": 1,
+        "pickups": 4,
+        "returns": 2,
+        "runes": [
+          150,
+          67,
+          11,
+          36
+        ]
+      }
+    },
+    {
+      "top-color": 13,
+      "bottom-color": 13,
+      "ping": 12,
+      "login": "",
+      "name": "\u0010CCT\u0011\u009C\u00E4\u00EA\u00E5\u00F6\u00F5\u00EC\u00F3\u00EB",
+      "team": "blue",
+      "stats": {
+        "frags": 15,
+        "deaths": 40,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 19,
+        "suicides": 3
+      },
+      "dmg": {
+        "taken": 6773,
+        "given": 3868,
+        "team": 0,
+        "self": 745,
+        "team-weapons": 0,
+        "enemy-weapons": 3130,
+        "taken-to-die": 169
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 6,
+        "quad": 0
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 3500.000000,
+        "avg": 418.791656
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 114,
+            "hits": 67
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 0,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 2,
+            "total-taken": 1
+          },
+          "damage": {
+            "enemy": 230,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "acc": {
+            "attacks": 28,
+            "hits": 18
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 4,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 10,
+            "total-taken": 10,
+            "spawn-taken": 10,
+            "spawn-total-taken": 10
+          },
+          "damage": {
+            "enemy": 72,
+            "team": 0
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 4,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 3,
+            "total-taken": 3,
+            "spawn-taken": 3,
+            "spawn-total-taken": 3
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 15,
+            "hits": 0
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 7,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 1,
+            "taken": 9,
+            "total-taken": 9,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 19,
+            "hits": 4,
+            "real": 6,
+            "virtual": 6
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 11,
+            "self": 1
+          },
+          "deaths": 2,
+          "pickups": {
+            "dropped": 4,
+            "taken": 19,
+            "total-taken": 21,
+            "spawn-taken": 17,
+            "spawn-total-taken": 17
+          },
+          "damage": {
+            "enemy": 550,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 81,
+            "hits": 10,
+            "real": 43,
+            "virtual": 46
+          },
+          "kills": {
+            "total": 15,
+            "team": 0,
+            "enemy": 16,
+            "self": 2
+          },
+          "deaths": 25,
+          "pickups": {
+            "dropped": 13,
+            "taken": 26,
+            "total-taken": 32,
+            "spawn-taken": 23,
+            "spawn-total-taken": 23
+          },
+          "damage": {
+            "enemy": 2806,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 6,
+            "hits": 2
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 7,
+          "pickups": {
+            "taken": 1,
+            "total-taken": 2
+          },
+          "damage": {
+            "enemy": 40,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 8
+        },
+        "health_100": {
+          "took": 6
+        },
+        "ya": {
+          "took": 10,
+          "time": 167
+        }
+      },
+      "ctf": {
+        "pickups": 9,
+        "runes": [
+          58,
+          17,
+          51,
+          11
+        ]
+      }
+    },
+    {
+      "top-color": 13,
+      "bottom-color": 13,
+      "ping": 46,
+      "login": "",
+      "name": "\u0010CCT\u0011\u009C\u00C8\u00E5\u00ED\u00EC\u00EF\u00E3\u00EB",
+      "team": "blue",
+      "stats": {
+        "frags": 10,
+        "deaths": 17,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 5,
+        "suicides": 0
+      },
+      "dmg": {
+        "taken": 2751,
+        "given": 1253,
+        "team": 0,
+        "self": 337,
+        "team-weapons": 0,
+        "enemy-weapons": 936,
+        "taken-to-die": 161
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 1,
+        "quad": 0
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 3500.000000,
+        "avg": 325.585846
+      },
+      "weapons": {
+        "axe": {
+          "acc": {
+            "attacks": 1,
+            "hits": 0
+          },
+          "deaths": 0
+        },
+        "sg": {
+          "acc": {
+            "attacks": 138,
+            "hits": 52
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 0,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 8,
+            "total-taken": 1
+          },
+          "damage": {
+            "enemy": 190,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "acc": {
+            "attacks": 14,
+            "hits": 8
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 8,
+            "total-taken": 8,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 32,
+            "team": 0
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 1,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 1,
+            "total-taken": 1,
+            "spawn-taken": 1,
+            "spawn-total-taken": 1
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 85,
+            "hits": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 8,
+            "total-taken": 8,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 33,
+            "hits": 2,
+            "real": 3,
+            "virtual": 3
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 1,
+            "taken": 12,
+            "total-taken": 14,
+            "spawn-taken": 12,
+            "spawn-total-taken": 12
+          },
+          "damage": {
+            "enemy": 225,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 78,
+            "hits": 3,
+            "real": 13,
+            "virtual": 26
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 4,
+            "self": 0
+          },
+          "deaths": 12,
+          "pickups": {
+            "dropped": 5,
+            "taken": 13,
+            "total-taken": 17,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 770,
+            "team": 0
+          }
+        },
+        "lg": {
+          "deaths": 4,
+          "pickups": {
+            "taken": 1,
+            "total-taken": 1,
+            "spawn-taken": 1,
+            "spawn-total-taken": 1
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 9
+        },
+        "ga": {
+          "took": 1,
+          "time": 113
+        },
+        "ya": {
+          "took": 2,
+          "time": 3
+        },
+        "ra": {
+          "took": 2,
+          "time": 29
+        }
+      },
+      "ctf": {
+        "points": 5,
+        "carrier-defends": 1,
+        "carrier-frags": 1,
+        "pickups": 1,
+        "returns": 1,
+        "runes": [
+          0,
+          14,
+          0,
+          19
+        ]
+      }
+    },
+    {
+      "top-color": 4,
+      "bottom-color": 4,
+      "ping": 33,
+      "login": "",
+      "name": "\u00EC\u00F7\u00FA\u00ADvelocity",
+      "team": "red",
+      "stats": {
+        "frags": 164,
+        "deaths": 16,
+        "tk": 0,
+        "spawn-frags": 1,
+        "kills": 26,
+        "suicides": 3
+      },
+      "dmg": {
+        "taken": 3280,
+        "given": 4168,
+        "team": 0,
+        "self": 622,
+        "team-weapons": 0,
+        "enemy-weapons": 3180,
+        "taken-to-die": 205
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 6,
+        "quad": 3
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 1609.785889,
+        "avg": 457.589966
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 30,
+            "hits": 24
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 1,
+            "total-taken": 4
+          },
+          "damage": {
+            "enemy": 96,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 8,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 5,
+            "total-taken": 5,
+            "spawn-taken": 5,
+            "spawn-total-taken": 5
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 4,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 2,
+            "hits": 0
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 5,
+            "total-taken": 5,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 36,
+            "hits": 3,
+            "real": 8,
+            "virtual": 12
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 13,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 8,
+            "total-taken": 8,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 481,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 75,
+            "hits": 13,
+            "real": 42,
+            "virtual": 48
+          },
+          "kills": {
+            "total": 20,
+            "team": 0,
+            "enemy": 17,
+            "self": 3
+          },
+          "deaths": 11,
+          "pickups": {
+            "dropped": 11,
+            "taken": 14,
+            "total-taken": 27,
+            "spawn-taken": 12,
+            "spawn-total-taken": 12
+          },
+          "damage": {
+            "enemy": 3091,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 61,
+            "hits": 14
+          },
+          "kills": {
+            "total": 3,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          },
+          "damage": {
+            "enemy": 386,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 13
+        },
+        "health_100": {
+          "took": 3
+        },
+        "ga": {
+          "took": 10,
+          "time": 243
+        },
+        "ya": {
+          "took": 6,
+          "time": 79
+        },
+        "q": {
+          "took": 1,
+          "time": 21
+        }
+      },
+      "ctf": {
+        "points": 141,
+        "caps": 6,
+        "defends": 4,
+        "carrier-frags": 3,
+        "pickups": 7,
+        "returns": 4,
+        "runes": [
+          100,
+          0,
+          32,
+          61
+        ]
+      }
+    },
+    {
+      "top-color": 4,
+      "bottom-color": 4,
+      "ping": 12,
+      "login": "",
+      "name": "\u00EC\u00F7\u00FA\u00ADlethalwiz",
+      "team": "red",
+      "stats": {
+        "frags": 140,
+        "deaths": 26,
+        "tk": 0,
+        "spawn-frags": 1,
+        "kills": 25,
+        "suicides": 5
+      },
+      "dmg": {
+        "taken": 3357,
+        "given": 5200,
+        "team": 0,
+        "self": 864,
+        "team-weapons": 0,
+        "enemy-weapons": 3595,
+        "taken-to-die": 129
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 6,
+        "quad": 3
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 1458.534912,
+        "avg": 303.311737
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 36,
+            "hits": 0
+          },
+          "deaths": 2,
+          "pickups": {
+            "total-taken": 3
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 3,
+            "total-taken": 3,
+            "spawn-taken": 3,
+            "spawn-total-taken": 3
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 3,
+            "total-taken": 4,
+            "spawn-taken": 3,
+            "spawn-total-taken": 3
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 2,
+            "hits": 0
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 8,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 1,
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 25,
+            "hits": 0,
+            "real": 2,
+            "virtual": 2
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 12,
+            "self": 0
+          },
+          "deaths": 3,
+          "pickups": {
+            "dropped": 1,
+            "taken": 9,
+            "total-taken": 10,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 120,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 146,
+            "hits": 14,
+            "real": 61,
+            "virtual": 76
+          },
+          "kills": {
+            "total": 24,
+            "team": 0,
+            "enemy": 18,
+            "self": 5
+          },
+          "deaths": 15,
+          "pickups": {
+            "dropped": 17,
+            "taken": 24,
+            "total-taken": 36,
+            "spawn-taken": 23,
+            "spawn-total-taken": 23
+          },
+          "damage": {
+            "enemy": 4579,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 33,
+            "hits": 7
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 2,
+            "total-taken": 2,
+            "spawn-taken": 1,
+            "spawn-total-taken": 1
+          },
+          "damage": {
+            "enemy": 160,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 7
+        },
+        "health_100": {
+          "took": 3
+        },
+        "ga": {
+          "took": 1,
+          "time": 3
+        },
+        "ya": {
+          "took": 3,
+          "time": 109
+        },
+        "ra": {
+          "took": 1,
+          "time": 58
+        },
+        "q": {
+          "took": 3,
+          "time": 62
+        }
+      },
+      "ctf": {
+        "points": 120,
+        "caps": 2,
+        "defends": 3,
+        "carrier-defends": 1,
+        "carrier-frags": 4,
+        "pickups": 3,
+        "returns": 3,
+        "runes": [
+          85,
+          67,
+          58,
+          11
+        ]
+      }
+    },
+    {
+      "top-color": 4,
+      "bottom-color": 4,
+      "ping": 40,
+      "login": "",
+      "name": "\u00EC\u00F7\u00FA\u00ADlag",
+      "team": "red",
+      "stats": {
+        "frags": 118,
+        "deaths": 23,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 17,
+        "suicides": 1
+      },
+      "dmg": {
+        "taken": 4848,
+        "given": 3534,
+        "team": 0,
+        "self": 476,
+        "team-weapons": 0,
+        "enemy-weapons": 2894,
+        "taken-to-die": 210
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 5,
+        "quad": 5
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 3500.000000,
+        "avg": 318.443390
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 162,
+            "hits": 30
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 0,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "total-taken": 3
+          },
+          "damage": {
+            "enemy": 189,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 7,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 5,
+            "total-taken": 5,
+            "spawn-taken": 5,
+            "spawn-total-taken": 5
+          }
+        },
+        "ng": {
+          "acc": {
+            "attacks": 17,
+            "hits": 8
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 1,
+            "taken": 7,
+            "total-taken": 7,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          },
+          "damage": {
+            "enemy": 72,
+            "team": 0
+          }
+        },
+        "sng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 6,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 50,
+            "hits": 5,
+            "real": 7,
+            "virtual": 14
+          },
+          "kills": {
+            "total": 3,
+            "team": 0,
+            "enemy": 5,
+            "self": 0
+          },
+          "deaths": 2,
+          "pickups": {
+            "dropped": 5,
+            "taken": 11,
+            "total-taken": 11,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 646,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 37,
+            "hits": 5,
+            "real": 22,
+            "virtual": 23
+          },
+          "kills": {
+            "total": 7,
+            "team": 0,
+            "enemy": 14,
+            "self": 1
+          },
+          "deaths": 15,
+          "pickups": {
+            "dropped": 8,
+            "taken": 15,
+            "total-taken": 19,
+            "spawn-taken": 15,
+            "spawn-total-taken": 15
+          },
+          "damage": {
+            "enemy": 2002,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 79,
+            "hits": 15
+          },
+          "kills": {
+            "total": 5,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 3,
+          "pickups": {
+            "dropped": 1,
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 3,
+            "spawn-total-taken": 3
+          },
+          "damage": {
+            "enemy": 520,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 6
+        },
+        "health_100": {
+          "took": 3
+        },
+        "ga": {
+          "took": 1,
+          "time": 21
+        },
+        "ya": {
+          "took": 8,
+          "time": 184
+        },
+        "ra": {
+          "took": 7,
+          "time": 211
+        },
+        "q": {
+          "took": 2,
+          "time": 40
+        }
+      },
+      "ctf": {
+        "points": 103,
+        "caps": 1,
+        "carrier-frags": 2,
+        "pickups": 4,
+        "returns": 2,
+        "runes": [
+          0,
+          98,
+          7,
+          72
+        ]
+      }
+    },
+    {
+      "top-color": 4,
+      "bottom-color": 4,
+      "ping": 42,
+      "login": "",
+      "name": "\u00EC\u00F7\u00FA\u00ADxunito",
+      "team": "red",
+      "stats": {
+        "frags": 128,
+        "deaths": 14,
+        "tk": 0,
+        "spawn-frags": 1,
+        "kills": 23,
+        "suicides": 0
+      },
+      "dmg": {
+        "taken": 3291,
+        "given": 5173,
+        "team": 0,
+        "self": 496,
+        "team-weapons": 0,
+        "enemy-weapons": 3634,
+        "taken-to-die": 235
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 8,
+        "quad": 0
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 3500.000000,
+        "avg": 332.425842
+      },
+      "weapons": {
+        "sg": {
+          "acc": {
+            "attacks": 174,
+            "hits": 71
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 0,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 5,
+            "total-taken": 2
+          },
+          "damage": {
+            "enemy": 271,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "acc": {
+            "attacks": 14,
+            "hits": 9
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 9,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 6,
+            "total-taken": 6,
+            "spawn-taken": 6,
+            "spawn-total-taken": 6
+          },
+          "damage": {
+            "enemy": 36,
+            "team": 0
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 2,
+            "total-taken": 2,
+            "spawn-taken": 2,
+            "spawn-total-taken": 2
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 14,
+            "hits": 3
+          },
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 10,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 1,
+            "taken": 8,
+            "total-taken": 8,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 54,
+            "team": 0
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 9,
+            "hits": 3,
+            "real": 3,
+            "virtual": 4
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 14,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 2,
+            "taken": 10,
+            "total-taken": 11,
+            "spawn-taken": 8,
+            "spawn-total-taken": 8
+          },
+          "damage": {
+            "enemy": 267,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 78,
+            "hits": 9,
+            "real": 39,
+            "virtual": 44
+          },
+          "kills": {
+            "total": 12,
+            "team": 0,
+            "enemy": 17,
+            "self": 0
+          },
+          "deaths": 12,
+          "pickups": {
+            "dropped": 4,
+            "taken": 12,
+            "total-taken": 19,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 2895,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 164,
+            "hits": 46
+          },
+          "kills": {
+            "total": 8,
+            "team": 0,
+            "enemy": 2,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 1,
+            "taken": 7,
+            "total-taken": 8,
+            "spawn-taken": 7,
+            "spawn-total-taken": 7
+          },
+          "damage": {
+            "enemy": 1541,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 11
+        },
+        "health_100": {
+          "took": 4
+        },
+        "ga": {
+          "took": 3,
+          "time": 92
+        },
+        "ya": {
+          "took": 8,
+          "time": 213
+        }
+      },
+      "ctf": {
+        "points": 105,
+        "defends": 3,
+        "carrier-frags": 2,
+        "returns": 2,
+        "runes": [
+          8,
+          56,
+          15,
+          64
+        ]
+      }
+    },
+    {
+      "top-color": 4,
+      "bottom-color": 4,
+      "ping": 77,
+      "login": "",
+      "name": "lwz-brunelson",
+      "team": "red",
+      "stats": {
+        "frags": 120,
+        "deaths": 16,
+        "tk": 0,
+        "spawn-frags": 0,
+        "kills": 15,
+        "suicides": 0
+      },
+      "dmg": {
+        "taken": 3173,
+        "given": 2962,
+        "team": 0,
+        "self": 310,
+        "team-weapons": 0,
+        "enemy-weapons": 1722,
+        "taken-to-die": 198
+      },
+      "xferRL": 0,
+      "xferLG": 0,
+      "spree": {
+        "max": 7,
+        "quad": 0
+      },
+      "control": 0.000000,
+      "speed": {
+        "max": 3500.000000,
+        "avg": 335.974060
+      },
+      "weapons": {
+        "axe": {
+          "acc": {
+            "attacks": 4,
+            "hits": 3
+          },
+          "deaths": 0,
+          "damage": {
+            "enemy": 60,
+            "team": 0
+          }
+        },
+        "sg": {
+          "acc": {
+            "attacks": 120,
+            "hits": 20
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 2,
+            "total-taken": 2
+          },
+          "damage": {
+            "enemy": 80,
+            "team": 0
+          }
+        },
+        "ssg": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 4,
+            "total-taken": 5,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          }
+        },
+        "ng": {
+          "kills": {
+            "total": 0,
+            "team": 0,
+            "enemy": 3,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "taken": 2,
+            "total-taken": 2,
+            "spawn-taken": 2,
+            "spawn-total-taken": 2
+          }
+        },
+        "sng": {
+          "acc": {
+            "attacks": 64,
+            "hits": 14
+          },
+          "kills": {
+            "total": 2,
+            "team": 0,
+            "enemy": 5,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "taken": 4,
+            "total-taken": 4,
+            "spawn-taken": 4,
+            "spawn-total-taken": 4
+          },
+          "damage": {
+            "enemy": 230,
+            "team": 0
+          }
+        },
+        "gl": {
+          "acc": {
+            "attacks": 91,
+            "hits": 9,
+            "real": 7,
+            "virtual": 19
+          },
+          "kills": {
+            "total": 1,
+            "team": 0,
+            "enemy": 5,
+            "self": 0
+          },
+          "deaths": 0,
+          "pickups": {
+            "dropped": 4,
+            "taken": 11,
+            "total-taken": 12,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 572,
+            "team": 0
+          }
+        },
+        "rl": {
+          "acc": {
+            "attacks": 46,
+            "hits": 3,
+            "real": 23,
+            "virtual": 27
+          },
+          "kills": {
+            "total": 8,
+            "team": 0,
+            "enemy": 9,
+            "self": 0
+          },
+          "deaths": 13,
+          "pickups": {
+            "dropped": 3,
+            "taken": 12,
+            "total-taken": 13,
+            "spawn-taken": 11,
+            "spawn-total-taken": 11
+          },
+          "damage": {
+            "enemy": 1218,
+            "team": 0
+          }
+        },
+        "lg": {
+          "acc": {
+            "attacks": 132,
+            "hits": 30
+          },
+          "kills": {
+            "total": 4,
+            "team": 0,
+            "enemy": 1,
+            "self": 0
+          },
+          "deaths": 1,
+          "pickups": {
+            "dropped": 2,
+            "taken": 3,
+            "total-taken": 3,
+            "spawn-taken": 3,
+            "spawn-total-taken": 3
+          },
+          "damage": {
+            "enemy": 705,
+            "team": 0
+          }
+        }
+      },
+      "items": {
+        "health_25": {
+          "took": 13
+        },
+        "health_100": {
+          "took": 1
+        },
+        "ga": {
+          "took": 2,
+          "time": 56
+        },
+        "ya": {
+          "took": 5,
+          "time": 142
+        },
+        "ra": {
+          "took": 2,
+          "time": 100
+        }
+      },
+      "ctf": {
+        "points": 105,
+        "defends": 1,
+        "carrier-defends": 1,
+        "carrier-frags": 3,
+        "returns": 3,
+        "runes": [
+          173,
+          20,
+          65,
+          53
+        ]
+      }
+    }
+  ]
+}

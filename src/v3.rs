@@ -4,17 +4,17 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Default, Clone, Serialize, Deserialize)]
 #[serde(default)]
 pub struct KtxstatsV3 {
-    pub version: i32,
+    pub version: u32,
     pub date: DateTime<Utc>,
     pub map: String,
     pub hostname: String,
     pub ip: String,
-    pub port: i32,
+    pub port: u32,
     pub mode: String,
-    pub tl: i32,
-    pub dm: i32,
-    pub tp: i32,
-    pub duration: i32,
+    pub tl: u32,
+    pub dm: u32,
+    pub tp: u32,
+    pub duration: u32,
     pub demo: String,
     pub teams: Vec<String>,
     pub players: Vec<Player>,

@@ -46,7 +46,8 @@ pub struct Player {
     pub speed: PlayerSpeed,
     pub weapons: Weapons,
     pub items: Items,
-    pub ctf: CtfStats,
+    pub ctf: Option<CtfStats>,
+    pub bot: Option<BotConfig>,
 }
 
 #[derive(Debug, Default, Clone, Serialize, Deserialize)]
@@ -85,6 +86,13 @@ pub struct Items {
 pub struct Armor {
     pub took: i32,
     pub time: i32,
+}
+
+#[derive(Debug, Default, Clone, Serialize, Deserialize)]
+#[serde(default)]
+pub struct BotConfig {
+    pub skill: i32,
+    pub customised: bool,
 }
 
 #[derive(Debug, Default, Clone, Serialize, Deserialize)]
@@ -180,7 +188,6 @@ pub struct WeaponPickups {
     pub spawn_total_taken: i32,
 }
 
-
 #[cfg(test)]
 mod tests {
     use std::fs;
@@ -191,11 +198,16 @@ mod tests {
 
     #[test]
     fn test_try_from() {
-        let demo_content = fs::read_to_string("tests/files/ctf_blue_vs_red[ctf5]20240520-1925.mvd.ktxstats.json").unwrap();
+        let demo_content =
+            fs::read_to_string("tests/files/ctf_blue_vs_red[ctf5]20240520-1925.mvd.ktxstats.json")
+                .unwrap();
         let stats = KtxstatsV3::try_from(demo_content.as_str()).unwrap();
 
         assert_eq!(stats.version, 3);
-        assert_eq!(stats.date.to_rfc3339(), "2024-05-20T19:35:42+00:00".to_string());
+        assert_eq!(
+            stats.date.to_rfc3339(),
+            "2024-05-20T19:35:42+00:00".to_string()
+        );
         assert_eq!(stats.map, "ctf5".to_string());
         assert_eq!(stats.hostname, "qwctf.se:28501".to_string());
         assert_eq!(stats.ip, "127.0.1.1".to_string());
@@ -205,16 +217,20 @@ mod tests {
         assert_eq!(stats.dm, 3);
         assert_eq!(stats.tp, 4);
         assert_eq!(stats.duration, 600);
-        assert_eq!(stats.demo, "ctf_blue_vs_red[ctf5]20240520-1925.mvd".to_string());
+        assert_eq!(
+            stats.demo,
+            "ctf_blue_vs_red[ctf5]20240520-1925.mvd".to_string()
+        );
 
         let player = stats.players[0].clone();
-        assert_eq!(player.ctf.points, 8);
-        assert_eq!(player.ctf.caps, 0);
-        assert_eq!(player.ctf.defends, 0);
-        assert_eq!(player.ctf.carrier_defends, 4);
-        assert_eq!(player.ctf.carrier_frags, 1);
-        assert_eq!(player.ctf.pickups, 2);
-        assert_eq!(player.ctf.returns, 0);
-        assert_eq!(player.ctf.runes, [0, 110, 22, 192]);
+        let ctfstats = player.ctf.unwrap_or_default();
+        assert_eq!(ctfstats.points, 8);
+        assert_eq!(ctfstats.caps, 0);
+        assert_eq!(ctfstats.defends, 0);
+        assert_eq!(ctfstats.carrier_defends, 4);
+        assert_eq!(ctfstats.carrier_frags, 1);
+        assert_eq!(ctfstats.pickups, 2);
+        assert_eq!(ctfstats.returns, 0);
+        assert_eq!(ctfstats.runes, [0, 110, 22, 192]);
     }
 }
